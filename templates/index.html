@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+     crossorigin="anonymous">
+     <link rel='stylesheet' type='text/css' media='screen' href="{{ url_for('static', filename='css/main.css') }}">
+     <script src='main.js'></script>
+</head>
+<body style="background-color: 	#F0EAD6;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Flask App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item nav-link" href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="container mt-5">
+      <h1>Welcome to Sriharsha's Flask App!</h1>
+      <p>This is a demo application built with Flask and Bootstrap.</p>
+    </div>
+  
+
+    <div class="register_page">
+        <div class="form">
+            <form action="{{url_for('predict')}}" method="POST">
+                Bedrooms: <input type="number" name='bedrooms' placeholder="Enter the no of Bedrooms"><br>
+                Bathrooms: <input type="number" name='bathrooms' placeholder="Enter the no of Bathrooms"><br>
+                Floors: <input type="number" name='floors' placeholder="Enter the no of Floors"><br>
+                Year of Build: <input type="number" name='yr_built' placeholder="Enter year of Build"><br>
+                <input type="submit" value="predict" class="submit">
+            </form>
+            <p> House Price is: {{data}}</p>
+        </div>
+
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1PiTZwE "
+     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNS"
+     crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+     crossorigin="anonymous"></script>
+     <footer class="mt-5 py-3 bg-dark text-white">
+        <div class="container">
+          <p class="text-center">&copy; Sriharsha's Flask App</p>
+        </div>
+      </footer>
+  </body>
+</html>
