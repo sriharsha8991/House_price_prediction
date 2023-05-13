@@ -1,4 +1,4 @@
-# [House-price-prediction-using-flask](http://127.0.0.1:5000)
+> # [House-price-prediction-using-flask access link](http://127.0.0.1:5000)
 In this project, I developed the predictive power of a model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
 
 If you want to more clear explonation, see my blog [House Price Prediction using Flask for Beginners](https://techyscientists.blogspot.com/2021/07/house-price-prediction-using-flask.html)
