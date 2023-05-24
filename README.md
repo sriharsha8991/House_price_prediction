@@ -1,5 +1,5 @@
 > # Link for landing page: [click here](https://flaskhpp.azurewebsites.net/)
-> ---Make Sure you follow the usage guide below---
+ **---Make Sure you follow the usage guide below before using the site---**<br>
 In this project, I developed the predictive model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
 
 
@@ -7,8 +7,8 @@ In this project, I developed the predictive model trained on house price data. I
 * Bedrooms: Enter number of bedrooms in the house
 * bathrooms: Enter number of bathrooms in the house
 * floors: enter number of floors if no floors are there enter only 1
-* years: Enter numbers of years passed after the construction done successfully
-**Example if it is constructed in the year 2020 years = 3**
+* years: Enter numbers of years passed after the construction done successfully<br>
+**Example if it is constructed in the year 2020 then years = 3**
 
 ## Installation
 
