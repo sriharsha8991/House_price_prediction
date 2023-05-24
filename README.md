@@ -1,5 +1,5 @@
-> # [House-price-prediction-using-flask access link](https://flaskhpp.azurewebsites.net/)
-In this project, I developed the predictive power of a model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
+> # Link for landing page: [click here](https://flaskhpp.azurewebsites.net/)
+In this project, I developed the predictive model trained on house price data. It deploys with flask API and uses Linear Regression to predict the price value. Deploy Machine Learning Model Using Flask to take a model from python code.
 
 
 ## Installation
@@ -21,12 +21,7 @@ python app.py
 <br>
 <br>
 
-## Preview
-<img src='https://github.com/JafirDon/House-price-prediction-using-flask/blob/main/static/images/form.png'></img>
-<br>
-<br>
-
-### After Page Update:
+### Page Image:
 <img src= 'https://github.com/sriharsha8991/AML/blob/main/Flask_App_Exp-10/House-price-prediction-using-flask-main/WhatsApp%20Image%202023-05-04%20at%2022.48.11.jpg'></img>
 <br>
 
@@ -36,3 +31,5 @@ MIT License
 <br>
 
 ### Thank you
+**The page is part of I nueron assignment 
+It can be modified later with other Features such of the boston house price prediction**
