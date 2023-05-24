@@ -31,5 +31,5 @@ MIT License
 <br>
 
 ### Thank you
-**The page is part of I nueron assignment 
+**The page is part of Inueron assignment 
 It can be modified later with other Features such of the boston house price prediction**
